@@ -1,0 +1,7 @@
+[2018-08-12 14:24:05,615] ERROR {org.ballerinalang.launcher.Main} - main function not found in 'client_ep_sample_main.bal' 
+java.lang.RuntimeException: main function not found in 'client_ep_sample_main.bal'
+	at org.ballerinalang.launcher.LauncherUtils.runProgram(LauncherUtils.java:100)
+	at org.ballerinalang.launcher.Main$RunCmd.execute(Main.java:256)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:66)
+ 
